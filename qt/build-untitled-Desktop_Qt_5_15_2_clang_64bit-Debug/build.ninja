@@ -1,0 +1,261 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: untitled
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target untitled
+
+
+#############################################
+# Order-only phony target for untitled
+
+build cmake_object_order_depends_target_untitled: phony || untitled_autogen untitled_autogen/EWIEGA46WW/qrc_res.cpp untitled_autogen/mocs_compilation.cpp untitled_autogen/timestamp untitled_autogen_timestamp_deps
+
+build CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.o: CXX_COMPILER__untitled_Debug /Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug/untitled_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_untitled
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0 -fPIC -std=gnu++17
+  INCLUDES = -I/Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug -I/Users/macbook/Desktop/qt/untitled -I/Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug/untitled_autogen/include -iframework /Users/macbook/Qt/5.15.2/clang_64/lib -isystem /Users/macbook/Qt/5.15.2/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/macbook/Qt/5.15.2/clang_64/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/macbook/Qt/5.15.2/clang_64/lib/QtCore.framework/Headers -isystem /Users/macbook/Qt/5.15.2/clang_64/./mkspecs/macx-clang
+  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir/untitled_autogen
+
+build CMakeFiles/untitled.dir/main.cpp.o: CXX_COMPILER__untitled_Debug /Users/macbook/Desktop/qt/untitled/main.cpp || cmake_object_order_depends_target_untitled
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/untitled.dir/main.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0 -fPIC -std=gnu++17
+  INCLUDES = -I/Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug -I/Users/macbook/Desktop/qt/untitled -I/Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug/untitled_autogen/include -iframework /Users/macbook/Qt/5.15.2/clang_64/lib -isystem /Users/macbook/Qt/5.15.2/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/macbook/Qt/5.15.2/clang_64/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/macbook/Qt/5.15.2/clang_64/lib/QtCore.framework/Headers -isystem /Users/macbook/Qt/5.15.2/clang_64/./mkspecs/macx-clang
+  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir
+
+build CMakeFiles/untitled.dir/mainwindow.cpp.o: CXX_COMPILER__untitled_Debug /Users/macbook/Desktop/qt/untitled/mainwindow.cpp || cmake_object_order_depends_target_untitled
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/untitled.dir/mainwindow.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0 -fPIC -std=gnu++17
+  INCLUDES = -I/Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug -I/Users/macbook/Desktop/qt/untitled -I/Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug/untitled_autogen/include -iframework /Users/macbook/Qt/5.15.2/clang_64/lib -isystem /Users/macbook/Qt/5.15.2/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/macbook/Qt/5.15.2/clang_64/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/macbook/Qt/5.15.2/clang_64/lib/QtCore.framework/Headers -isystem /Users/macbook/Qt/5.15.2/clang_64/./mkspecs/macx-clang
+  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir
+
+build CMakeFiles/untitled.dir/untitled_autogen/EWIEGA46WW/qrc_res.cpp.o: CXX_COMPILER__untitled_Debug /Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug/untitled_autogen/EWIEGA46WW/qrc_res.cpp || cmake_object_order_depends_target_untitled
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/untitled.dir/untitled_autogen/EWIEGA46WW/qrc_res.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0 -fPIC -std=gnu++17
+  INCLUDES = -I/Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug -I/Users/macbook/Desktop/qt/untitled -I/Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug/untitled_autogen/include -iframework /Users/macbook/Qt/5.15.2/clang_64/lib -isystem /Users/macbook/Qt/5.15.2/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/macbook/Qt/5.15.2/clang_64/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/macbook/Qt/5.15.2/clang_64/lib/QtCore.framework/Headers -isystem /Users/macbook/Qt/5.15.2/clang_64/./mkspecs/macx-clang
+  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir/untitled_autogen/EWIEGA46WW
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target untitled
+
+
+#############################################
+# Link the executable untitled.app/Contents/MacOS/untitled
+
+build untitled.app/Contents/MacOS/untitled: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.o CMakeFiles/untitled.dir/main.cpp.o CMakeFiles/untitled.dir/mainwindow.cpp.o CMakeFiles/untitled.dir/untitled_autogen/EWIEGA46WW/qrc_res.cpp.o | /Users/macbook/Qt/5.15.2/clang_64/lib/QtWidgets.framework/QtWidgets /Users/macbook/Qt/5.15.2/clang_64/lib/QtGui.framework/QtGui /Users/macbook/Qt/5.15.2/clang_64/lib/QtCore.framework/QtCore || untitled_autogen untitled_autogen_timestamp_deps
+  FLAGS = -DQT_QML_DEBUG -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0
+  LINK_LIBRARIES = -Wl,-rpath,/Users/macbook/Qt/5.15.2/clang_64/lib  /Users/macbook/Qt/5.15.2/clang_64/lib/QtWidgets.framework/QtWidgets  /Users/macbook/Qt/5.15.2/clang_64/lib/QtGui.framework/QtGui  /Users/macbook/Qt/5.15.2/clang_64/lib/QtCore.framework/QtCore
+  OBJECT_DIR = CMakeFiles/untitled.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = untitled.app/Contents/MacOS/untitled
+  TARGET_PDB = untitled.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug && /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/bin/ccmake -S/Users/macbook/Desktop/qt/untitled -B/Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug && /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/bin/cmake --regenerate-during-build -S/Users/macbook/Desktop/qt/untitled -B/Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build CMakeFiles/install.util: CUSTOM_COMMAND all
+  COMMAND = cd /Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug && /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build install: phony CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build CMakeFiles/install/local.util: CUSTOM_COMMAND all
+  COMMAND = cd /Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug && /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build install/local: phony CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
+  COMMAND = cd /Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug && /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build install/strip: phony CMakeFiles/install/strip.util
+
+
+#############################################
+# Utility command for untitled_autogen_timestamp_deps
+
+build untitled_autogen_timestamp_deps: phony CMakeFiles/untitled_autogen_timestamp_deps
+
+
+#############################################
+# Utility command for untitled_autogen
+
+build untitled_autogen: phony CMakeFiles/untitled_autogen untitled_autogen/include/ui_mainwindow.h untitled_autogen/timestamp untitled_autogen/mocs_compilation.cpp untitled_autogen_timestamp_deps
+
+
+#############################################
+# Custom command for untitled_autogen/timestamp
+
+build untitled_autogen/timestamp untitled_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}untitled_autogen/timestamp ${cmake_ninja_workdir}untitled_autogen/mocs_compilation.cpp: CUSTOM_COMMAND /Users/macbook/Qt/5.15.2/clang_64/bin/moc /Users/macbook/Qt/5.15.2/clang_64/bin/uic || untitled_autogen_timestamp_deps
+  COMMAND = cd /Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug && /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug/CMakeFiles/untitled_autogen.dir/AutogenInfo.json Debug && /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E touch /Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug/untitled_autogen/timestamp && /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_transform_depfile Ninja gccdepfile /Users/macbook/Desktop/qt/untitled /Users/macbook/Desktop/qt/untitled /Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug /Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug /Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug/untitled_autogen/deps /Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug/CMakeFiles/d/d4a27577a1de1a0a665ed1c03cf82cd453b33051e1788331f791d9901d37da64.d
+  DESC = Automatic MOC and UIC for target untitled
+  depfile = /Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug/CMakeFiles/d/d4a27577a1de1a0a665ed1c03cf82cd453b33051e1788331f791d9901d37da64.d
+  restat = 1
+
+
+#############################################
+# Custom command for untitled_autogen/EWIEGA46WW/qrc_res.cpp
+
+build untitled_autogen/EWIEGA46WW/qrc_res.cpp | ${cmake_ninja_workdir}untitled_autogen/EWIEGA46WW/qrc_res.cpp: CUSTOM_COMMAND /Users/macbook/Desktop/qt/untitled/res.qrc CMakeFiles/untitled_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json /Users/macbook/Desktop/qt/untitled/rrr.jpg /Users/macbook/Qt/5.15.2/clang_64/bin/rcc || untitled_autogen untitled_autogen_timestamp_deps
+  COMMAND = cd /Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug && /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autorcc /Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug/CMakeFiles/untitled_autogen.dir/AutoRcc_res_EWIEGA46WW_Info.json Debug
+  DESC = Automatic RCC for res.qrc
+  restat = 1
+
+
+#############################################
+# Phony custom command for CMakeFiles/untitled_autogen_timestamp_deps
+
+build CMakeFiles/untitled_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/untitled_autogen_timestamp_deps: phony /Users/macbook/Qt/5.15.2/clang_64/lib/QtWidgets.framework/QtWidgets /Users/macbook/Qt/5.15.2/clang_64/bin/moc /Users/macbook/Qt/5.15.2/clang_64/bin/uic
+
+
+#############################################
+# Phony custom command for CMakeFiles/untitled_autogen
+
+build CMakeFiles/untitled_autogen untitled_autogen/include/ui_mainwindow.h | ${cmake_ninja_workdir}CMakeFiles/untitled_autogen ${cmake_ninja_workdir}untitled_autogen/include/ui_mainwindow.h: phony untitled_autogen/timestamp || untitled_autogen_timestamp_deps
+
+# =============================================================================
+# Target aliases.
+
+build untitled: phony untitled.app/Contents/MacOS/untitled
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug
+
+build all: phony untitled.app/Contents/MacOS/untitled
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Users/macbook/Desktop/qt/untitled/CMakeLists.txt /Users/macbook/Desktop/qt/untitled/res.qrc /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5/Qt5Config.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake /Users/macbook/Qt/Qt$ Creator.app/Contents/Resources/package-manager/auto-setup.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/CMakeParseArguments.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/Compiler/Clang.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/Compiler/GNU.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/MacOSXBundleInfo.plist.in /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/Platform/Darwin.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Users/macbook/Desktop/qt/untitled/CMakeLists.txt /Users/macbook/Desktop/qt/untitled/res.qrc /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5/Qt5Config.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake /Users/macbook/Qt/5.15.2/clang_64/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake /Users/macbook/Qt/Qt$ Creator.app/Contents/Resources/package-manager/auto-setup.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/CMakeParseArguments.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/Compiler/Clang.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/Compiler/GNU.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/MacOSXBundleInfo.plist.in /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/Platform/Darwin.cmake /Users/macbook/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean additional files.
+
+build CMakeFiles/clean.additional: CLEAN_ADDITIONAL
+  CONFIG = Debug
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN CMakeFiles/clean.additional
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

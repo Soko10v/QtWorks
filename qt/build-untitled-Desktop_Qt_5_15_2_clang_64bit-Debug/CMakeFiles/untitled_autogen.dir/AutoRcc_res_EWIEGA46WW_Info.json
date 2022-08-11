@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "/Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug/untitled_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/macbook/Desktop/qt/untitled",
+	"CMAKE_SOURCE_DIR" : "/Users/macbook/Desktop/qt/untitled",
+	"INCLUDE_DIR" : "/Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug/untitled_autogen/include",
+	"INPUTS" : [ "/Users/macbook/Desktop/qt/untitled/rrr.jpg" ],
+	"LOCK_FILE" : "/Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug/CMakeFiles/untitled_autogen.dir/AutoRcc_res_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "res" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_res.cpp",
+	"RCC_EXECUTABLE" : "/Users/macbook/Qt/5.15.2/clang_64/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/macbook/Desktop/qt/build-untitled-Desktop_Qt_5_15_2_clang_64bit-Debug/CMakeFiles/untitled_autogen.dir/AutoRcc_res_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/Users/macbook/Desktop/qt/untitled/res.qrc",
+	"VERBOSITY" : 0
+}
